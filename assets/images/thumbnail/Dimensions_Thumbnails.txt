@@ -1,0 +1,1 @@
+Make width 350px and don't stretch image
