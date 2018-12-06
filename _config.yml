@@ -38,14 +38,18 @@ fb_admins:           your facebook profile id
 fb_appid:            your facebook app id
 
 # Server
-destination:      	 ./_site
-exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
-port:             	 9001
+destination:         ./_site
+exclude:             [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
+port:                9001
+
 
 defaults:
   -
     scope:
       path: "_posts"
-      type: "posts"
+      type: "post"
     values:
       layout: "default"
+      author: "Leah Segal"
+      permalink: /:categories/:month/:day/:year/:title.html
+      comments: true
