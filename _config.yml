@@ -15,15 +15,15 @@ name:                Tangles & Twists
 title:               Tangles & Twists
 tagline:             'Literature, macrame, travel ... all in one blog'
 description:         'Welcome to my Tangles & Twists blog, where I cover all the things I love.'
-url:                 site url
-rss:                 rss feed url
+url:                 https://tanglesandtwists.github.io
+rss:                 rss feed here
 baseurl:             '/'
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
 baseurl_javascripts: '/assets/javascripts/'
-icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
-disqus:              disqus_shortname # get it on https://disqus.com/admin/
+icon:                / # /assets/img/icon.png [best 300px X 300px]
+disqus:              tanglesandtwists # get it on https://disqus.com/admin/
 
 author:
   name:           	 your name
