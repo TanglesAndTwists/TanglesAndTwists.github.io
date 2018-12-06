@@ -8,12 +8,13 @@ gems:                [jekyll-paginate]
 permalink:           /:title
 
 # Setup
-timezone:            your timezone # eg. Asia/Kathmandu
-locale:              your locale language # eg. en_us
-name:				         site name
-title:               site title
-tagline:             'tagline'
-description:         'description'
+# Setup
+timezone:            America/New_York # eg. Asia/Kathmandu
+locale:              en_us # eg. en_us
+name:                Tangles & Twists
+title:               Tangles & Twists
+tagline:             'Literature, macrame, travel ... all in one blog'
+description:         'Welcome to my Tangles & Twists blog, where I cover all the things I love.'
 url:                 site url
 rss:                 rss feed url
 baseurl:             '/'
