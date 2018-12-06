@@ -1,39 +1,39 @@
 
 # Syntax highlighting
-markdown:            kramdown
-highlighter:         rouge
-gems:                [jekyll-paginate]
+markdown:            redcarpet
+highlighter:         pygments
 
-
+# Permalinks
 permalink:           /:title
-
+relative_permalinks: true
 
 # Setup
-timezone:            America/New_York # eg. Asia/Kathmandu
-locale:              en_us # eg. en_us
-name:				         Tangles & Twists
-title:               Tangles & Twists
-tagline:             'Literature, macrame, travel ... all in one blog'
-description:         'Welcome to my Tangles & Twists blog, where I cover all the things I love.'
-url:                 https://tanglesandtwists.github.io
-rss:                 
+timezone:            your timezone # eg. Asia/Kathmandu
+locale:              your locale language # eg. en_us
+name:				         site name
+title:               site title
+tagline:             'tagline'
+description:         'description'
+url:                 site url
+rss:                 rss feed url
 baseurl:             '/'
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
 baseurl_javascripts: '/assets/javascripts/'
-icon:                / # /assets/img/icon.png [best 300px X 300px]
-disqus:              tanglesandtwists # get it on https://disqus.com/admin/
+icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
+disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
 author:
-  name:           	 Leah Segal
-  url:            	 https://TanglesAndTwists.github.io
-  facebook:          profile.php?id=100009141895784&ref=br_tf
-  twitter:           segall2015
-  linkedin:          leah-segal-aa554a156
-  pinterest:         leahsegal15
-  instagram:         leah.creative
-
+  name:           	 your name
+  url:            	 your site url
+  facebook:          username
+  twitter:           username
+  google_plus:       username
+  linkedin:          username
+  dribbble:          username
+  pinterest:         username
+  kiva:              username
 
 fb_admins:           your facebook profile id
 fb_appid:            your facebook app id
@@ -43,14 +43,10 @@ destination:      	 ./_site
 exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
 port:             	 9001
 
-
 defaults:
   -
     scope:
       path: "_posts"
-      type: "post"
+      type: "posts"
     values:
       layout: "default"
-      author: "Leah Segal"
-      permalink: /:categories/:month/:day/:year/:title.html
-      comments: true

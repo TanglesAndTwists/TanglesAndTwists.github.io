@@ -1,1 +1,0 @@
-Make width 2000px and don't stretch image

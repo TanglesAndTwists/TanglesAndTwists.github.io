@@ -129,5 +129,3 @@ Post thumbnails are automatically resized via Gulp's image resize package, and m
 Open sourced under the [MIT license](LICENSE.md).
 
 **Disclaimer: This Jekyll theme is not affiliated with Disney. Obviously :)**
-"# TanglesAndTwists.github.io" 
-"# TanglesAndTwists.github.io" 

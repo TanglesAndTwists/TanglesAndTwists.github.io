@@ -367,7 +367,6 @@ h6 {
 
 a {
   color: rgba(0, 0, 0, 0.8);
-  font-size: 1rem;
   text-decoration: none;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(75%, transparent), color-stop(75%, rgba(0, 0, 0, 0.8)));
   background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.8) 75%);
@@ -535,10 +534,9 @@ body {
 
 .textLogo--sidebar {
   width: 100%;
-  height: 8%;
-
-  /*background-size: contain;
-  background-position: center;*/
+  height: auto;
+  background-size: contain;
+  background-position: center;
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
@@ -550,14 +548,15 @@ body {
 
 .textLogo--frontpage {
   position: absolute;
-  top: 110px;
+  top: 132px;
   left: 50%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 500;
   margin: 0;
-  width: 400px;
+  width: 276px;
+  height: 50px;
   background-size: 100%;
   background-position: 0;
   opacity: 0.9;
@@ -566,9 +565,9 @@ body {
 
 @media (max-width: 767px) {
   .textLogo--frontpage {
-    width: 300px;
-    
-    top: 60px;
+    width: 182px;
+    height: 33px;
+    top: 99px;
   }
 }
 
@@ -1799,7 +1798,7 @@ body {
 }
 
 .postMeta-wrapper--frontpage .postMeta-tagline {
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 0.04rem;
   color: #777777;
   text-transform: none;
@@ -1826,7 +1825,6 @@ body {
 
 .postMeta li {
   float: left;
-  color: pink;
   margin: 0;
   padding: 0 0 0 10px;
   font-family: "Roboto", sans-serif;
@@ -1883,7 +1881,7 @@ body {
 
 .section--postsWrapper {
   width: 100%;
-  background: pink;
+  background: #f2f2f2;
   padding-top: 0;
   position: relative;
   clear: both;
@@ -2106,8 +2104,8 @@ body {
 .socialAccountList {
   list-style: none;
   margin: 1.5rem auto;
-  padding-left: 15%;
-  width: 80%;
+  padding-left: 0;
+  width: 50%;
 }
 
 .socialAccountList:before,
@@ -2166,10 +2164,6 @@ body {
 
 .socialAccount--rss {
   background-image: url(../images/rss--black.svg);
-}
-
-.socialAccount--instagram {
-  background-image: url(../images/instagram--black.svg);
 }
 
 .section--last {
@@ -2256,7 +2250,6 @@ body {
 
 .fullscreenModal h2 {
   font-size: 1.333rem;
-  color: black;
 }
 
 .modal-toggle-group {
@@ -2302,7 +2295,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60%;
-  background-color: pink;
+  background-color: transparent;
   cursor: pointer;
   -webkit-transform: scale(1);
   -webkit-transition: all 0.3s ease-out;
@@ -2403,7 +2396,7 @@ body {
 .modal-toggle-bubble {
   position: absolute;
   top: 0;
-  background-color: rgba(255,192,203,0.9);
+  background-color: rgba(34, 34, 34, 0.9);
   -webkit-transform: scale(1);
   -webkit-transition: all 0.3s ease-out;
   z-index: 600;
@@ -2440,7 +2433,6 @@ body {
   list-style: none;
   margin: 1.5rem auto 0;
   padding: 0;
-  padding-left: 10%;
   width: 60%;
 }
 
@@ -2459,8 +2451,8 @@ body {
   float: left;
   margin: 0;
   padding: 0 15px;
-  width: 25%;
-  height: 60px;
+  width: 16.66%;
+  height: 80px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -2474,21 +2466,13 @@ body {
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
-  .shareWrapper{
-    padding-left: 5%;
-  }
   .shareWrapper li .shareButton {
-    width: 15%;
+    width: 16.66%;
     height: 60px;
-    padding: 0 15%;
-
   }
 }
 
 @media (max-width: 767px) {
-  .shareWrapper{
-    padding-left: 0%;
-  }
   .shareWrapper li .shareButton {
     float: none;
     width: 100%;
@@ -2498,29 +2482,29 @@ body {
 }
 
 .shareButton--twitter {
-  background-image: url(../images/twitter--black.svg);
+  background-image: url(../images/twitter.svg);
 }
 
 .shareButton--facebook {
-  background-image: url(../images/facebook--black.svg);
+  background-image: url(../images/facebook.svg);
 }
 
 .shareButton--linkedin {
-  background-image: url(../images/linkedin--black.svg);
+  background-image: url(../images/linkedin.svg);
 }
-/*
+
 .shareButton--buffer {
-  background-image: url(../images/buffer--black.svg);
+  background-image: url(../images/buffer.svg);
 }
 
 .shareButton--hackernews {
-  background-image: url(../images/ycombinator--black.svg);
+  background-image: url(../images/ycombinator.svg);
 }
 
 .shareButton--pocket {
-  background-image: url(../images/pocket--black.svg);
+  background-image: url(../images/pocket.svg);
 }
-*/
+
 .textInput {
   border: 1px solid rgba(0, 0, 0, 0.15);
   padding: 0 15px;
