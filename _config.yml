@@ -14,15 +14,15 @@ name:                Tangles & Twists
 title:               Tangles & Twists
 tagline:             'Literature, macrame, travel ... all in one blog'
 description:         'Welcome to my Tangles & Twists blog, where I cover all the things I love.'
-url:                 https://tanglesandtwists.github.io
-rss:                 blank
+url:                 site url
+rss:                 rss feed url
 baseurl:             '/'
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
 baseurl_javascripts: '/assets/javascripts/'
-icon:                / # /assets/img/icon.png [best 300px X 300px]
-disqus:              tanglesandtwists # get it on https://disqus.com/admin/
+icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
+disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
 author:
   name:              Leah Segal
