@@ -26,15 +26,13 @@ icon:                / # /assets/img/icon.png [best 300px X 300px]
 disqus:              tanglesandtwists # get it on https://disqus.com/admin/
 
 author:
-  name:           	 your name
-  url:            	 your site url
-  facebook:          username
-  twitter:           username
-  google_plus:       username
-  linkedin:          username
-  dribbble:          username
-  pinterest:         username
-  kiva:              username
+  name:              Leah Segal
+  url:               https://tanglesandtwists.github.io
+  facebook:          profile.php?id=100009141895784&ref=br_tf
+  twitter:           segall2015
+  linkedin:          leah-segal-aa554a156
+  pinterest:         leahsegal15
+  instagram:         leah.creative
 
 fb_admins:           your facebook profile id
 fb_appid:            your facebook app id
