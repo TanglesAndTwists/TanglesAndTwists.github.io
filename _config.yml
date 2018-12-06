@@ -1,11 +1,11 @@
 
 # Syntax highlighting
-markdown:            redcarpet
-highlighter:         pygments
+markdown:            kramdown
+highlighter:         rouge
+gems:                [jekyll-paginate]
 
 # Permalinks
 permalink:           /:title
-relative_permalinks: true
 
 # Setup
 timezone:            your timezone # eg. Asia/Kathmandu
