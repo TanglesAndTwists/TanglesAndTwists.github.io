@@ -46,6 +46,8 @@ defaults:
   -
     scope:
       path: "_posts"
-      type: "posts"
+      type: "post"
     values:
       layout: "default"
+      author: "Leah Segal"
+      comments: true
