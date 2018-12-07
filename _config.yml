@@ -16,7 +16,7 @@ title:               Tangles & Twists
 tagline:             'Literature, macrame, travel ... all in one blog'
 description:         'Welcome to my Tangles & Twists blog, where I cover all the things I love.'
 url:                 https://tanglesandtwists.github.io
-rss:                 rss feed here
+rss:                 https://tanglesandtwists.github.io/feed.xml
 baseurl:             '/'
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
